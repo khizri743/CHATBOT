@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+            "responses": ["Hello!", "Hey!", "What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "see you later", "goodbye", "take care", "I'm leaving"],
+            "responses": ["Goodbye!", "See you soon!", "Have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks", "that's helpful", "I appreciate it"],
+            "responses": ["You're welcome!", "Happy to help!", "No problem!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what is your name?", "what should I call you?", "who are you?"],
+            "responses": ["My name is Razikh.", "You can call me Rassistant.", "I am an AI assistant created by Khizar."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["can you help me?", "what can you do?", "how can you assist me?"],
+            "responses": ["Of course, I'm here to help! What kind of task do you need assistance with?", "I can help with a variety of tasks, such as answering questions, providing analysis, and even coding. How can I be of service?", "I'd be happy to help! Please let me know what you need and I'll do my best to assist."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather like?", "how's the weather today?", "is it raining?"],
+            "responses": ["Unfortunately, I don't have access to real-time weather information. As an AI assistant created in August 2024, I can only provide weather-related information based on my knowledge from that time period.", "Since I'm an AI assistant created in 2024, I don't have up-to-date weather data. I can only provide information about the weather as I knew it at that time."]
+        },
+        {
+            "tag": "python_intro",
+            "patterns": ["what is Python?", "tell me about Python", "introduction to Python"],
+            "responses": ["Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various applications such as web development, data science, artificial intelligence, and more.", "Python is an object-oriented language that was created by Guido van Rossum in the late 1980s. It emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to other languages."]
+        },
+        {
+            "tag": "python_benefits",
+            "patterns": ["why use Python?", "advantages of Python", "benefits of Python"],
+            "responses": ["Python offers numerous benefits, including its easy syntax, extensive standard library, versatility across different platforms, great community support, and its popularity in various fields such as data science and machine learning.", "Some advantages of Python include its readability, flexibility, and the availability of a wide range of libraries and frameworks that make development faster and more efficient."]
+        },
+        {
+            "tag": "python_resources",
+            "patterns": ["where can I learn Python?", "best Python resources", "Python tutorials"],
+            "responses": ["There are many resources available to learn Python, such as online courses on platforms like Coursera, Udemy, and Codecademy, official Python documentation, books like 'Python Crash Course' and 'Automate the Boring Stuff with Python', and interactive websites like Codecademy and Real Python.", "You can also join Python communities like Python Discord, attend Python conferences, and participate in coding challenges on platforms like LeetCode and HackerRank to improve your Python skills."]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what time is it?", "do you know the current time?", "what's the time?"],
+            "responses": ["I'm afraid I don't have access to the current time. As an AI assistant created in August 2024, I can only provide information based on my knowledge from that time period.", "Since I'm an AI from 2024, I don't have the ability to tell you the current time. My knowledge is limited to what I knew in August 2024."]
+        },
+        {
+            "tag": "date",
+            "patterns": ["what's the date today?", "can you tell me the current date?", "what date is it?"],
+            "responses": ["According to my knowledge, the current date is August 7, 2024.", "As an AI assistant created in August 2023, I can only tell you that the date is August 7, 2024."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "can you make me laugh?", "do you know any jokes?"],
+            "responses": ["I was making a joke about retirement. It did not work.", "Why did the egg have a day off? Because it was Fryday", "Have you ever heard about the kidnapping at school? It's okay, he woke up.", "I found a book called How to Solve 50% of Your Problems. So I bought 2."]
+        }
+    ]
+}
